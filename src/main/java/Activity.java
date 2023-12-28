@@ -15,6 +15,8 @@ public class Activity {
         this.destination = destination;
     }
 
+    //activity booking check by capacity
+
     public boolean bookActivity() {
         if (bookedCount < capacity) {
             bookedCount++;

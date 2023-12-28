@@ -17,7 +17,7 @@ public class Passenger {
         this.balance = balance;
         this.activities = new ArrayList<>();
     }
-
+    //calculating balance upon successful signup based on different passenger types
     public boolean signUpForActivity(Activity activity) {
         if (activity.bookActivity()) {
             activities.add(activity);

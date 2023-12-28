@@ -1,6 +1,8 @@
 public class Nymble {
     public static void main(String[] args) {
 
+        //creating objects for each classes
+
         TravelPackageSystem travelPackageSystem = new TravelPackageSystem();
 
 

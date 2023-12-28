@@ -4,7 +4,7 @@ import java.util.List;
 public class Destination {
     private String name;
     private List<Activity> activities;
-
+    //prints destination and activities there
     public Destination(String name) {
         this.name = name;
         this.activities = new ArrayList<>();
